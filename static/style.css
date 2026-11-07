@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+
+}
+
+.a {
+    color: white;
+    padding: 8px 13px;
+    margin: 4px;
+    border-radius: 11px;
+}
+
+.a3 {
+    max-width: 750px;
+    margin-left: 400px;
+    padding: 22px;
+    background: white;
+    border-radius: 8px;
+}
+
+.h1 {
+    font-size: 32px;
+}
+
+.p {
+    font-size: 18px;
+}
+
+

@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body style="background-color: azure;">
+    <div class="menu">
+        <a class="a" href="http://127.0.0.1:8000/home" style="background-color: #6941a5;text-decoration: none;">Home</a>
+    </div>
+    <div class="content">
+        <h1 style="color: #24658c;" class="h1">Winter</h1>
+        <p class="p">{{ about_winter }}</p>
+    </div>
+</body>
+</html>

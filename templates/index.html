@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasons</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body style="background-color: #eee8ff;">
+    <div class="menu">
+        <a class="a" href="http://127.0.0.1:8000/home" style="background-color: #6941a5;text-decoration: none;">Home</a>
+        <a class="a" href="http://127.0.0.1:8000/profile" style="background-color: #24658c;text-decoration: none;">Winter</a>
+        <a class="a" href="http://127.0.0.1:8000/spring" style="background-color: #36753d;text-decoration: none;">Spring</a>
+        <a class="a" href="http://127.0.0.1:8000/summer" style="background-color: #976000;text-decoration: none;">Summer</a>
+        <a class="a" href="http://127.0.0.1:8000/autumn" style="background-color: #a34c23;text-decoration: none;">Autumn</a>
+    </div>
+    <div class="a3">
+        <h1 style="color: #6941a5;" class="h1">Seasons</h1>
+        <p>Snowy winters, blooming springs, sunny summers and golden autumns.</p>
+        <p>Choose a season above to learn more.</p>
+        <p>Created by {{ name }}</p>
+    </div>
+</body>
+</html>
